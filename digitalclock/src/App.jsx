@@ -2,44 +2,26 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Button from './button'
+import Profile from './Profile'
 
-function Component() {
-  //Middleware
-  return (
-    // Under return kommer det som vises på skjermen
-    // må være en tag eller html kode
-    <>
-      Fisk
-    </>
-  )
-}
+ 
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='header'>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className='middle'>
+      <h1> Velkommen til 2IT - React kurs</h1>
+       <Button/>
+       <Profile/>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <div className='footer'>
+      </div>
+     </>
   )
 }
 
