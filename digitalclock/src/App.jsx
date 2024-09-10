@@ -1,51 +1,53 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Button from './button'
-import Bluebutton from './bluebutton'
+import { useState, useEffect } from 'react';
+import './App.css';
+import React from 'react';
+import Explosion from 'react-explode/Corregidor'; 
 
-let isLoggedIn = true;
-let content;
+export default function App() {
+  const [time, setTime] = useState(10); 
+  const [showExplosion, setShowExplosion] = useState(false); 
+
+  useEffect(() => {
+    const myInterval = setInterval(() => {
+      setTime((nowTime) => {
+        if (nowTime > 0) {
+          return nowTime - 1; 
+        } else {
+          setShowExplosion(true); 
+          return 0; 
+        }
+      });
+    }, 1000);
+    return () => clearInterval(myInterval);
+  }, []);
 
 
-if (isLoggedIn) {
-  content = <Button />;
-} else {
-  content = <Bluebutton />;
-}
 
+  useEffect(() => {
+    if (showExplosion) {
+      const explosionTimeout = setTimeout(() => {
+        setShowExplosion(false); 
+        setTime(10); 
+      }, 5000); 
 
-
-const products = [
-  { title: 'Hvalbiff', Hvalcheck: true, id: 1 },
-  { title: 'Hvallever', Hvalcheck: false, id: 2 },
-  { title: 'Hvalnyre', Hvalcheck: false, id: 3 }
-];
-const listItems = products.map(product =>
-  <li key={product.id}>
-    {product.title}
-  </li>
-);
-
-function App() {
+      return () => clearTimeout(explosionTimeout);
+    }
+  }, [showExplosion]);
 
   return (
     <>
       <div className='header'>
-      <h1>Drikk en iskald coca cola i dag!</h1>
-      </div>
 
+      </div>
       <div className='middle'>
-      <h1> Velkommen til 2IT - React kurs</h1>
-      {content}
+        {showExplosion ? (
+          <Explosion size="400" delay={0} repeatDelay={0} repeat={10} radius={16} />
+        ) : (
+          <p>{time}</p>
+        )}
       </div>
 
-      <div className='footer'>
-      <h1>Kjøp en saftig burger hos burger king!</h1>
-      </div>
-     </>
-  )
+      <div className='footer'></div>
+    </>
+  );
 }
-
-export default App
