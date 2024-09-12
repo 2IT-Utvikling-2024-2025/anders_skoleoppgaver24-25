@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+h1 {
+  font-size: 30px;
+}
+
 .header {
   height: 12%;
   background: #212121;
