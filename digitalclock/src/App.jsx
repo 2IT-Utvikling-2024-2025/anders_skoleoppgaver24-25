@@ -3,87 +3,6 @@ import './App.css';
 import React from 'react';
 import Explosion from 'react-explode/Corregidor'; 
 
-
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
-//Tyv
 export default function App() {
   const [time, setTime] = useState(10); 
   const [showExplosion, setShowExplosion] = useState(false); 
@@ -92,17 +11,16 @@ export default function App() {
     const myInterval = setInterval(() => {
       setTime((nowTime) => {
         if (nowTime > 0) {
-          return nowTime - 1; 
+          const newTime = nowTime - 0.10;
+          return parseFloat(newTime.toFixed(1)); 
         } else {
           setShowExplosion(true); 
           return 0; 
         }
       });
-    }, 1000);
+    }, 10);
     return () => clearInterval(myInterval);
   }, []);
-
-
 
   useEffect(() => {
     if (showExplosion) {
@@ -118,17 +36,18 @@ export default function App() {
   return (
     <>
       <div className='header'>
-
+         <a target='_blank' href="https://github.com/Eplestein"> <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="" /> </a>
       </div>
       <div className='middle'>
         {showExplosion ? (
-          <Explosion size="400" delay={0} repeatDelay={0} repeat={10} radius={16} />
+          <Explosion size="400" delay={0} repeatDelay={0} repeat={5} radius={16} />
         ) : (
-          <p>{time}</p>
+          <p>{time.toFixed(1)}</p> 
         )}
       </div>
+      <div className='footer'>
 
-      <div className='footer'></div>
+      </div>
     </>
   );
 }
