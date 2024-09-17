@@ -1,0 +1,102 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.header {
+  height: 12%;
+  background: #212121;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 15%;
+  background: #212121;
+}
+
+.header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+img {
+  opacity: 0.5;
+  width: 12vh;
+  height: 12vh;
+  position: relative; 
+  left: 0;
+  border-radius: 50%;
+  transition: opacity 3s ease, width 10.5s ease, height 10.5s ease;
+}
+
+
+img.animate {
+  animation: universalHoverEffect 10.31s linear infinite;
+  opacity: 1;
+}
+
+@keyframes universalHoverEffect {
+  0% {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    left: 0;
+    border-radius: 50%;
+    width: 100vh;
+    height: 100vh;
+  }
+
+  100% {
+    transform: matrix(0.7, 0.7, -0.7, 0.7, 0, -7);;
+    left: 55vh;
+    border-radius: 100%;
+    width: 300vh;
+    height: 150vh;
+  }
+}
+
+input {
+  width: 35vh;
+  height: 4vh;
+  box-sizing: border-box;
+}
+
+input:hover {
+  width: 43vh;
+  height: 5.5vh;
+  transform: rotate(2deg);
+  transition: 0.75s;
+  border-color: rgb(95, 95, 95);
+  border-radius: 10px;
+}
+
+p:hover {
+  transform: rotate(8492deg);
+  transition: 100s;
+}
+
+h1:hover {
+  transform: matrix(1, 2, 3, 4, 5, 6);
+  transition: 1s;
+  margin-bottom: 50vh;
+}
+
+button:hover {
+  transform: rotate(360deg);
+}
