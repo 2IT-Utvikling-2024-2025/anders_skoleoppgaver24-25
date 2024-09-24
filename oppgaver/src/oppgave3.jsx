@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './oppgave3.css';
 
+
+
 export default function Oppgave3() {
     const [num1, setNum1] = useState(0);
     const [num2, setNum2] = useState(0);
@@ -34,7 +36,7 @@ export default function Oppgave3() {
 
     return (
         <div className="container">
-            <h1>Tallgal</h1>
+            <h1>Tallgal - Gamblecrazy</h1>
             <p>Tall 1: {num1}</p>
             <p>Tall 2: {num2}</p>
             <p>Sum: {sum}</p>
