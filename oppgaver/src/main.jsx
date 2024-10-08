@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Oppgave3 from './oppgave3.jsx'
+import Oppgave5 from './oppgave5.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Oppgave3 />
+    <Oppgave5 />
   </StrictMode>,
 )
