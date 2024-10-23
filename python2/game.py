@@ -6,7 +6,7 @@ pygame.init()
 
 WIDTH = 800
 HEIGHT = 600
-SPEED = 8
+SPEED = 15
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Slange')

@@ -1,23 +1,9 @@
-import pygame
+import random
+import time 
+import os
+import keyboard
+import sys
+import numpy 
+import matplotlib.pyplot
 
-pygame.init()
-
-WIDTH = 800
-HEIGHT = 600
-
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption('testarea')
-
-
-running = True
-while running:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-
-    screen.fill((0, 0, 0))
-
-
-    pygame.display.flip()
-
-pygame.quit()
+print("x")
