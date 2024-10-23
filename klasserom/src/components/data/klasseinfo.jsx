@@ -1,6 +1,6 @@
     let klasseinfo = {
     
-        "2ITA": [
+        "2ITB": [
           {
             "id": 1,
             "name": "Alice Johnson",
