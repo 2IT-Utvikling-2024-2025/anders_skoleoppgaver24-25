@@ -1,3 +1,4 @@
+import klasseinfo from "./data/klasseinfo"
 import Elev from "./Elev"
 import './css/klassekart.css'
 

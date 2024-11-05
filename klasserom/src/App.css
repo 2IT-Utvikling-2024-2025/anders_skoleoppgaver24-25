@@ -1,44 +1,54 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  height: 100svh;
-  width: 100svw;
+.sitteplasser {
+  display: flex;
+}
+
+
+.elev {
+  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2em;
+  width: 2em;
+  margin-top: 2em;
+  border: solid white 2px;
+  font-size: 2em;
 }
 
-.header {
+.container {
   display: flex;
+  height: 100vh;
   width: 100%;
-  height: 20vh;
-  flex-direction: column;
 }
 
-.middle {
+.leftside {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 60vh;
-  flex-direction: row;
+  height: 100%;
+  background: green;
 }
 
-.footer {
+.rightside {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 20vh;
+  height: 100%;
+  background: blue;
 }
 
-.right {
+.profile-container {
   display: flex;
-  width: 50%;
-  height: 60vh;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
 }
 
-.left {
-  display: flex;
-  width: 50%;
-  height: 60vh;
-  flex-direction: column;
+.profile-box {
+  border: solid black 2px;
+  background: coral;
+  height: 50%;
 }

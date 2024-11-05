@@ -1,4 +1,5 @@
 import Klassekart from './klassekart.jsx'
+import './css/klassekart.css'
 
 function App() {
 

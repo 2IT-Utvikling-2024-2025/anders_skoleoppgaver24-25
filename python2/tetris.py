@@ -55,7 +55,7 @@ def display_board(shape=None, offset=(0, 0)):
             for x, cell in enumerate(row):
                 if cell:
                     temp_board[y + off_y][x + off_x] = 1
-    print("\n".join([" ".join(["#" if cell else "  " for cell in row]) for row in temp_board]))
+    print("\n".join([" ".join(["#" if cell else "." for cell in row]) for row in temp_board]))
 
 def game_over():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -66,7 +66,7 @@ def tetris():
     current_shape = random.choice(shapes)
     shape_offset = [width // 2 - len(current_shape[0]) // 2, 0]
     while True:
-        time.sleep(0.1)
+        time.sleep(0.3)
         display_board(current_shape, shape_offset)
 
         if keyboard.is_pressed('left') and valid_move(current_shape, (shape_offset[0] - 1, shape_offset[1])):
