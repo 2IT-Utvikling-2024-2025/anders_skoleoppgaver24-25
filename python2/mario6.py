@@ -91,7 +91,7 @@ def draw_background():
 
 
 def main():
-
+    player = Player()
     pygame.quit()
 
 main()
