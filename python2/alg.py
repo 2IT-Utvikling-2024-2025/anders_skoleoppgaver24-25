@@ -24,7 +24,7 @@ email_field = driver.find_element(By.XPATH, '//input[@type="email"]')
 email_field.send_keys("fiskeburger@example.com")
 
 feedback_field = driver.find_element(By.XPATH, '//textarea')
-feedback_field.send_keys("This is my feedback.")
+feedback_field.send_keys("S.")
 
 submit_button = driver.find_element(By.XPATH, '//span[text()="Submit"]/parent::div')
 submit_button.click()
