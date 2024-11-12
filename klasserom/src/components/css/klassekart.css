@@ -15,12 +15,26 @@
     border: solid white 2px;
     font-size: 2em;
   }
+
+
   
   .container {
     display: flex;
     height: 100vh;
     width: 100%;
   }
+
+  button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(244, 190, 53);
+    
+  }
+
   
   .leftside {
     display: flex;
@@ -28,7 +42,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background: green;
+    background: rgb(128, 234, 128);
   }
   
   .rightside {
@@ -37,7 +51,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background: blue;
+    background: rgb(128, 128, 245);
   }
   
   .profile-container {
