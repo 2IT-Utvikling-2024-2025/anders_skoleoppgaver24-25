@@ -9,8 +9,8 @@
     I dag har jeg jobbet med klassekartet, som innebærer at jeg jobbet med jsx. Litt mer spesifikt om akkurat det jeg har gjort.
     Jeg har utført noen store endringer. 
 
-        Endret klasseinfo.jsx til .json 
-        
+        > Endret klasseinfo.jsx til .json 
+
 
 
 
