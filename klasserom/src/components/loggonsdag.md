@@ -7,11 +7,12 @@
 
 ## Endringer utført
 
-- [x] Endret klasseinfo.jsx til .json 
+> [x] Endret klasseinfo.jsx til .json 
 
-- [x] Forandret nesten alt i klassekart.jsx
+> [x] Forandret nesten alt i klassekart.jsx
 
-- [x] la til en funksjon som lar deg plassere hvem som skal sitte på hvilke plasser
+> [x] la til en funksjon som lar deg plassere hvem som skal sitte på hvilke plasser
+
 
 
 
