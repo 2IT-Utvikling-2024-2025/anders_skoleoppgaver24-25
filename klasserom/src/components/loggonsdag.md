@@ -19,7 +19,12 @@
 
 
 ## Spesifikt det jeg har gjort
-    I dag har jeg jobbet videre med klassekartet, dette innebærer at jeg jobber med jsx. Jeg har omskrevet egentlig hele koden i klassekart.jsx, og lagt til nyttige funksjoner som gjør det både lettere for meg og den som skal bruke nettsiden. Da snakker jeg i hoved settning om funskjonen som lar deg plassere eleven på en av plassene. Da trenger jeg ikke og se fram og tilbake på json filene og IDen til navnene hver gang jeg skal endre på en plass. 
+    I dag har jeg jobbet videre med klassekartet,
+    dette innebærer at jeg jobber med jsx.
+    Jeg har omskrevet egentlig hele koden i klassekart.jsx,
+    og lagt til nyttige funksjoner som gjør det både lettere for meg og den som skal bruke nettsiden.
+    Da snakker jeg i hoved settning om funskjonen som lar deg plassere eleven på en av plassene.
+    Da trenger jeg ikke og se fram og tilbake på json filene og IDen til navnene hver gang jeg skal endre på en plass. 
     
 
 
