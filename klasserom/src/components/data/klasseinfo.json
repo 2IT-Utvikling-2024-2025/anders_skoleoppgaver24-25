@@ -1,0 +1,79 @@
+{
+    "2ITB": [
+        {
+            "id": 1,
+            "navn": "Mubashir",
+            "alder": "17"
+        },
+        {
+            "id": 2,
+            "navn": "Amanda",
+            "alder": "17"
+        },
+        {
+            "id": 3,
+            "navn": "Anders",
+            "alder": "17"
+        },
+        {
+            "id": 4,
+            "navn": "Angelina",
+            "alder": "17"
+        },
+        {
+            "id": 5,
+            "navn": "Birk",
+            "alder": "16"
+        },
+        {
+            "id": 6,
+            "navn": "Jacob",
+            "alder": "17"
+        },
+        {
+            "id": 7,
+            "navn": "Jo Erlend",
+            "alder": "17"
+        },
+        {
+            "id": 8,
+            "navn": "Nora",
+            "alder": "17"
+        },
+        {
+            "id": 9,
+            "navn": "Oskar",
+            "alder": "17"
+        },
+        {
+            "id": 10,
+            "navn": "Sander",
+            "alder": "16"
+        },
+        {
+            "id": 11,
+            "navn": "Sebastian",
+            "alder": "17"
+        },
+        {
+            "id": 12,
+            "navn": "Sigurd",
+            "alder": "16"
+        },
+        {
+            "id": 13,
+            "navn": "Sindre",
+            "alder": "17"
+        },
+        {
+            "id": 14,
+            "navn": "Storm",
+            "alder": "17"
+        },
+        {
+            "id": 15,
+            "navn": "Yevhenii",
+            "alder": "17"
+        }
+    ]
+}

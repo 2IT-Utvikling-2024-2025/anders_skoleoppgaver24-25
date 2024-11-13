@@ -1,70 +1,64 @@
-  
-
-  .sitteplasser {
-    display: flex;
-  }
-  
-  
-  .elev {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    width: 2em;
-    margin-top: 2em;
-    border: solid white 2px;
-    font-size: 2em;
-  }
+body {
+  background-color: #1d4ed8;
+}
 
 
-  
-  .container {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-  }
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
 
-  button {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background: rgb(244, 190, 53);
-    
-  }
+.leftside, .rightside {
+  width: 45%;
+}
 
+
+.sitteplasser {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 30vh;
+  height: 20vh;
   
-  .leftside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background: rgb(128, 234, 128);
-  }
-  
-  .rightside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background: rgb(128, 128, 245);
-  }
-  
-  .profile-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-  
-  }
-  
-  .profile-box {
-    border: solid black 2px;
-    background: coral;
-    height: 50%;
-  }
+}
+
+button:hover {
+  color: #1d4ed8;
+}
+
+.student-selection-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  width: 200px;
+}
+
+.student-selection-modal ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-selection-modal li {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+.student-selection-modal li:hover {
+  background-color: #f0f0f0;
+}
+
+.student-selection-modal button {
+  margin-top: 10px;
+}
