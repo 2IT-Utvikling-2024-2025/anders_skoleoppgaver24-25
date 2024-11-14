@@ -74,7 +74,7 @@ export default function Klassekart() {
             
             {selectedSeat && (
                 <div className="student-selection-modal">
-                    <h3>Select a student</h3>
+                    <h3>Velg elev</h3>
                     <ul>
                         {students.map((student) => (
                             <li key={student.id} onClick={() => assignStudentToSeat(student)}>
@@ -82,7 +82,7 @@ export default function Klassekart() {
                             </li>
                         ))}
                     </ul>
-                    <button onClick={() => setSelectedSeat(null)}>Close</button>
+                    <button onClick={() => setSelectedSeat(null)}>Lukk</button>
                 </div>
             )}
         </div>

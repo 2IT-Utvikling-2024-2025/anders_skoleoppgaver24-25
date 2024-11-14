@@ -1,3 +1,15 @@
+.header {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-style:solid ;
+  border-color: #000000;
+  border-width: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   background-color: #1d4ed8;
 }
@@ -7,6 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  justify-content: center;
 }
 
 
@@ -14,6 +27,10 @@ body {
   width: 45%;
 }
 
+.rightside {
+  justify-content: center;
+  margin-right:90px ;
+}
 
 .sitteplasser {
   display: flex;
@@ -21,8 +38,9 @@ body {
 }
 
 button {
-  width: 30vh;
-  height: 20vh;
+  width: 20vh;
+  height: 10vh;
+  margin-bottom: 20px;
   
 }
 
