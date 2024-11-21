@@ -1,0 +1,49 @@
+@media (max-width: 480px) {
+  .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .venstreside, .hoyreside {
+    grid-template-columns: 1fr;
+  }
+  .midtgang {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .parent {
+    flex-direction: row;
+    align-items: center;
+  }
+  .venstreside, .hoyreside {
+    grid-template-columns: 1fr 1fr;
+  }
+  .midtgang {
+    width: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .parent {
+    flex-direction: row;
+    align-items: center;
+  }
+  .venstreside, .hoyreside {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .midtgang {
+    width: 50px;
+  }
+}
+
+.pult {
+  width: 100%;
+  max-width: 250px;
+  margin: 10px;
+}
+
+.elevinfo {
+  max-width: 500px;
+  margin: 20px auto;
+}

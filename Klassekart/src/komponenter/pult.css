@@ -1,0 +1,38 @@
+.pult {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.pult:hover{
+    cursor: pointer;
+    background-color:rgb(138, 35, 212);
+    color: white;
+    transition: 0.5s;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transform: scale(1.2);
+}
+
+.elevnavn{
+    font-weight: bold;
+}
+
+.tilbake{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.tilbake:hover {
+    background-color: #45a049;
+  }

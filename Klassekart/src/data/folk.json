@@ -1,0 +1,97 @@
+{
+    "2ITB": [
+        {
+            "id": 1,
+            "navn": "Sebastian",
+            "birthday": "21/04/2007",
+            "gender": "female"
+        },
+        {
+            "id": 2,
+            "navn": "Anders",
+            "birthday": "26/06/2007",
+            "gender": "male"
+        },
+        {
+            "id": 3,
+            "navn": "Mubashir",
+            "birthday": "06/04/2007",
+            "gender": "male"
+            
+        },
+        {
+            "id": 4,
+            "navn": "Sindre",
+            "birthday": "01/11/2007",
+            "gender": "male"
+        },
+        {
+            "id": 5,
+            "navn": "Sander",
+            "birthday": "20/11/2007",
+            "gender":"male"
+        },
+        {
+            "id": 6,
+            "navn": "Sigurd",
+            "birthday": "29/10/2007",
+            "gender": "male"
+            
+        },
+        {
+            "id": 7,
+            "navn": "Nora",
+            "birthday": "01/01/2007",
+            "gender": "female"
+        },
+        {
+            "id": 8,
+            "navn": "Angelina",
+            "birthday": "01/01/2007",
+            "gender": "female"
+        },
+        {
+            "id": 9,
+            "navn": "Amanda",
+            "birthday": "01/01/2007",
+            "gender": "female"
+        },
+        {
+            "id": 10,
+            "navn": "Storm",
+            "birthday": "01/01/2007",
+            "gender": "male"
+
+        },
+        {
+            "id": 11,
+            "navn": "Oscar",
+            "birthday": "01/01/2007",
+            "gender": "male"
+        },
+        {
+            "id": 12,
+            "navn": "Yevhenii",
+            "birthday": "01/01/2007",
+            "gender": "male"
+        },
+        {
+            "id": 13,
+            "navn": "Birk",
+            "birthday": "13/11/2007",
+            "gender": "male"
+        },
+        {
+            "id": 14,
+            "navn": "Jacob",
+            "birthday": "01/01/2007",
+            "gender": "male"
+        },
+        {
+            "id": 15,
+            "navn": "Jo Erlend",
+            "birthday": "",
+            "gender": "male"
+        }
+    ]
+}

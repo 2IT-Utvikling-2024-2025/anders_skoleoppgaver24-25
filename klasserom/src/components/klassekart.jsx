@@ -2,13 +2,15 @@ import { useEffect, useState } from "react";
 import klasseinfo from "./data/klasseinfo";
 import Elev from "./Elev";
 import './css/klassekart.css';
+import larer from "./data/lærere";
 
 export default function Klassekart() {
     const [students, setStudents] = useState([]);
     const [selectedSeat, setSelectedSeat] = useState(null);
     const [tableAssignments, setTableAssignments] = useState({
         left: Array(3).fill([null, null]),  
-        right: Array(3).fill([null, null, null])  
+        right: Array(3).fill([null, null, null]),
+        teacher: Array(1).fill([null])
     });
 
     useEffect(() => {
