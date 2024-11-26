@@ -16,6 +16,9 @@ const calculateAge = (birthday) => {
 const profilePicture = (gender) => {
   const dummy_female = "https://upload.wikimedia.org/wikipedia/en/b/b9/Princess_Fiona.png";
   const dummy_male = "https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png";
+  const custom1 = "";
+  const custom2 = "";
+  const custom3 = "";
 
   
   if (gender?.toLowerCase() === "male") {
@@ -38,7 +41,8 @@ export default function Elevinfo() {
   const student = students.find(({ id }) => id.toString() === studentId);
 
   if (!student) {
-    return <div>Student not found</div>;
+    return <div>Elev ikke funnet
+    </div>;
   }
 
   const { navn, birthday, gender } = student; 

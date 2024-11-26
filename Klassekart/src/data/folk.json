@@ -90,7 +90,7 @@
         {
             "id": 15,
             "navn": "Jo Erlend",
-            "birthday": "",
+            "birthday": "01/01/1234",
             "gender": "male"
         }
     ]
