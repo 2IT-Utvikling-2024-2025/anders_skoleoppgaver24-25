@@ -1,0 +1,57 @@
+[
+    {
+        "id": "6dfea2e0-1b8d-4029-87b0-8b869685ccd4",
+        "name": "Erik",
+        "age": "25"
+    },
+    {
+        "id": "029d8340-9b2b-4dc4-912c-d54a8ef9163d",
+        "name": "Sofie",
+        "age": "25"
+    },
+    {
+        "id": "95fade49-ba04-43ab-b798-ab5b811129ec",
+        "name": "Øyvind",
+        "age": "25"
+    },
+    {
+        "id": "c8d4e663-aa0f-4bd6-bf92-ab6eb922f084",
+        "name": "Arne",
+        "age": "25"
+    },
+    {
+        "id": "d66a165b-3200-4d6f-b55c-5d9a135e8806",
+        "name": "Tobias",
+        "age": "26"
+    },
+    {
+        "id": "a12f3450-cde3-4dc9-a3a7-b93fa234890c",
+        "name": "Emma",
+        "age": "27"
+    },
+    {
+        "id": "4b6fbb30-50c2-4da5-93c8-d7d34eb0fe2e",
+        "name": "Jonas",
+        "age": "24"
+    },
+    {
+        "id": "8f4cdd77-83f2-4c9e-87e4-f334b56739b6",
+        "name": "Kari",
+        "age": "26"
+    },
+    {
+        "id": "c123ee9a-f110-4ef6-bc7b-91b47cde90f7",
+        "name": "Mikkel",
+        "age": "28"
+    },
+    {
+        "id": "7c43ddbb-1f99-4e73-8be7-a60b33e25b4a",
+        "name": "Lise",
+        "age": "25"
+    },
+    {
+        "id": "c47f50b0-6d03-4c9d-8be2-3c879c87e349",
+        "name": "Henrik",
+        "age": "27"
+    }
+]
