@@ -18,7 +18,7 @@ const SalePage = () => {
       })
       .then(json => {
         if (json.success) setProducts(json.data);
-        else throw new Error('API returned success: false');
+        else throw new Error('API-- returned success: false');
       })
       .catch(err => setError(err.message))
       .finally(() => setLoading(false));
